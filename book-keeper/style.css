@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: var(--primary-color);
+  
   background-image: url("background.jpg");
   font-family: Karla, sans-serif;
   background-repeat: no-repeat;
@@ -206,6 +206,14 @@ button:focus {
 
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
+  body {  
+  background-image: url("background2.jpg");
+  font-family: Karla, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
   h1{
     font-size:22px;
   }
